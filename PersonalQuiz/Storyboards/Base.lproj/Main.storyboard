@@ -339,6 +339,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="ntF-J1-Zjs" id="m7I-aH-8HD"/>
+                        <outlet property="youAreLabel" destination="y3W-tP-55h" id="e4l-37-F5w"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bHm-XD-jEy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="U7s-ur-UA2" userLabel="Exit" sceneMemberID="exit"/>
@@ -365,7 +369,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="VM0-3S-mHf"/>
+        <segue reference="mYB-UV-Tzg"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
